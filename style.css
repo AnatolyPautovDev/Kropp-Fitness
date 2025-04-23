@@ -636,5 +636,15 @@ h1, h2, h3, h4, h5, h6 {
     }
     .training-types-list {
       grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .training-types-item {
+      --trainingTypesItemBgIconSize: 50px;
+
+      row-gap: 10px;
+    }
+
+    .training-types-image {
+      max-width: 120px;
     }
 }
